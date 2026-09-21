@@ -4,4 +4,5 @@ class Calculadora:
         self.b = b
     def sumar(self):
         return self.a + self.b
-    
+    def restar(self):
+        return self.a - self.b

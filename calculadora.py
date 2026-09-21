@@ -1,14 +1,14 @@
 class Calculadora:
     """Realiza operaciones aritmeticas basicas entre dos numeros"""
-    def __init__(self, a: float, b:float):
+    def __init__(self, x: float, y:float):
         """ Inicializa la calculadora con los dos operandos
         
         Args:
             a: primer numero
             b: segundo numero
         """
-        self.a = a
-        self.b = b
+        self.a = x
+        self.b = y
     def sumar(self):
         """
         Devuelve la suma entre a y b 

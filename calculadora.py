@@ -7,4 +7,8 @@ class Calculadora:
     def restar(self):
         return self.a - self.b
     def dividir(self):
-        return self.a / self.b
+        if self.b == 0:
+            return "No se puede dividir por 0"
+        else:
+            return self.a / self.b
+        
